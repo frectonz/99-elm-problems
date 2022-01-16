@@ -7,3 +7,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - Palindrome (Problem 6)
 - SplitList (Problem 17)
 - SpliceList (Problem 18)
+- DropList (Problem 20)
