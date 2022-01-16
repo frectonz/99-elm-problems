@@ -4,4 +4,5 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 
 ## Solved Problems
 
-- Palindrome
+- Palindrome (Problem 6)
+- SplitList (Problem 17)
