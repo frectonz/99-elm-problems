@@ -8,3 +8,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - SplitList (Problem 17)
 - SpliceList (Problem 18)
 - DropList (Problem 20)
+- RotateList (Problem 19)
