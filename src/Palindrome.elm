@@ -1,73 +1,36 @@
-module Palindrome exposing (..)
+module Palindrome exposing (isPalindrome, main, test)
 
-import Browser
-import Html exposing (Html, br, div, input, span, text)
-import Html.Attributes exposing (value)
-import Html.Events exposing (onInput)
+import Html
+import List
 
 
+isPalindrome : List a -> Bool
+isPalindrome lst =
+    List.reverse lst == lst
 
--- MAIN
 
-
-main : Program () Model Msg
+main : Html.Html a
 main =
-    Browser.sandbox { init = init, update = update, view = view }
+    Html.text <|
+        case test of
+            0 ->
+                "Your implementation passed all tests."
+
+            1 ->
+                "Your implementation failed one test."
+
+            x ->
+                "Your implementation failed " ++ String.fromInt x ++ " tests."
 
 
-
--- MODEL
-
-
-type alias Model =
-    String
-
-
-init : Model
-init =
-    ""
-
-
-
--- UPDATE
-
-
-type Msg
-    = ChangeString String
-
-
-update : Msg -> Model -> Model
-update msg _ =
-    case msg of
-        ChangeString newStr ->
-            newStr
-
-
-
--- VIEW
-
-
-view : Model -> Html Msg
-view model =
-    div []
-        [ input [ value model, onInput ChangeString ] []
-        , br [] []
-        , checkPalindrome model
-        ]
-
-
-checkPalindrome : String -> Html msg
-checkPalindrome string =
-    if string == "" then
-        span [] []
-
-    else if isPalindrome string then
-        span [] [ text (string ++ " is a palindrome") ]
-
-    else
-        span [] [ text (string ++ " is not a palindrom") ]
-
-
-isPalindrome : String -> Bool
-isPalindrome string =
-    String.reverse string == string
+test : Int
+test =
+    List.length <|
+        List.filter ((==) False)
+            [ isPalindrome [ 1, 3, 5, 8, 5, 3, 1 ] == True
+            , isPalindrome [ 2, 1 ] == False
+            , isPalindrome [ 1 ] == True
+            , isPalindrome [] == True
+            , isPalindrome [ "aa", "bb", "aa" ] == True
+            , isPalindrome [ "aab", "b", "aa" ] == False
+            ]
