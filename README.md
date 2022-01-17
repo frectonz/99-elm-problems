@@ -12,3 +12,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - InsertAt (Problem 21)
 - SortByLength (Problem 28.a)
 - IsPrime (Problem 31)
+- Last (Problem 1)
