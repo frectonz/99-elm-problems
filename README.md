@@ -11,3 +11,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - RotateList (Problem 19)
 - InsertAt (Problem 21)
 - SortByLength (Problem 28.a)
+- IsPrime (Problem 31)
