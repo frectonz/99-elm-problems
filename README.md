@@ -13,3 +13,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - SortByLength (Problem 28.a)
 - IsPrime (Problem 31)
 - Last (Problem 1)
+- Penultimate (Problem 2)
