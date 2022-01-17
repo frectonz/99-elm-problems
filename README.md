@@ -10,3 +10,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - DropList (Problem 20)
 - RotateList (Problem 19)
 - InsertAt (Problem 21)
+- SortByLength (Problem 28.a)
