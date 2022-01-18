@@ -15,3 +15,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - Last (Problem 1)
 - Penultimate (Problem 2)
 - ElementAt (Problem 3)
+- CountElements (Problem 4)
