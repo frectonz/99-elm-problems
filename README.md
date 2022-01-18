@@ -19,3 +19,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - Palindrome (Problem 6)
 - Flatten (Problem 7)
 - DropWhile (Extra 1)
+- TakeWhile (Extra 2)
