@@ -17,3 +17,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - CountElements (Problem 4)
 - MyReverse (Problem 5)
 - Palindrome (Problem 6)
+- Flatten (Problem 7)
