@@ -18,3 +18,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - MyReverse (Problem 5)
 - Palindrome (Problem 6)
 - Flatten (Problem 7)
+- DropWhile (Extra 1)
