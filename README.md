@@ -16,3 +16,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - Penultimate (Problem 2)
 - ElementAt (Problem 3)
 - CountElements (Problem 4)
+- MyReverse (Problem 5)
