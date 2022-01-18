@@ -4,7 +4,6 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 
 ## Solved Problems
 
-- Palindrome (Problem 6)
 - SplitList (Problem 17)
 - SpliceList (Problem 18)
 - DropList (Problem 20)
@@ -17,3 +16,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - ElementAt (Problem 3)
 - CountElements (Problem 4)
 - MyReverse (Problem 5)
+- Palindrome (Problem 6)
