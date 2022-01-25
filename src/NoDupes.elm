@@ -1,7 +1,6 @@
 module NoDupes exposing (..)
 
 import Html
-import Html.Attributes exposing (accept)
 import List
 
 
