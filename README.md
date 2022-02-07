@@ -21,3 +21,4 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - DropWhile (Extra 1)
 - TakeWhile (Extra 2)
 - NoDupes (Problem 8)
+- Pack (Problem 9)
