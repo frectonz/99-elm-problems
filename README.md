@@ -22,6 +22,8 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - TakeWhile (Extra 2)
 - NoDupes (Problem 8)
 - Pack (Problem 9)
+- RunLength (Problem 10)
+- RleEncode (Problem 11)
 
 ## Running the examples
 
