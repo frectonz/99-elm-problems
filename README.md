@@ -22,3 +22,11 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - TakeWhile (Extra 2)
 - NoDupes (Problem 8)
 - Pack (Problem 9)
+
+## Running the examples
+
+To the examples you must have elm installed on your system.
+
+```bash
+elm reactor
+```
