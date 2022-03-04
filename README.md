@@ -24,6 +24,7 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - Pack (Problem 9)
 - RunLength (Problem 10)
 - RleEncode (Problem 11)
+- RleDecode (Problem 12)
 
 ## Running the examples
 
