@@ -25,10 +25,11 @@ My solution to the problems [here](https://johncrane.gitbooks.io/ninety-nine-elm
 - RunLength (Problem 10)
 - RleEncode (Problem 11)
 - RleDecode (Problem 12)
+- Duplicate (Problem 14)
 
 ## Running the examples
 
-To the examples you must have elm installed on your system.
+To run the examples you should have elm installed on your system.
 
 ```bash
 elm reactor
